@@ -1,0 +1,60 @@
+o python trabalha com modulos pré instalados e podemos instalar modulos neles.
+
+ao comprar um carro popular, ele vem sem ar condicionado, som, etc.
+
+corpo
+ao longo do dia adquirimos comidas.
+existem varios tipos diferentes de comida.
+
+python por padrão vem com alguns comandos limitados.
+seguindo a analogia do corpo.
+so o essencial, andar, correr , mexer , agarrar.
+
+e se precisar importamos comida da blibioteca. (import)
+os imports estão presentes nas primeiras linhas.
+
+podemos importar todas as bebidas, usando 'import bebidas'
+ou só uma em especifico como : 'from bebidas import coca-cola'
+as vezes so queremos a coca, mas não queremos café, leite ,etc.
+isso melhora a memória.
+
+blioteca math.
+ceil() arredonda pra cima
+floor() arredonda pra baixo
+trunc() elimina da virgula pra cima
+pow() potencia
+sqrt() raiz quadrada
+factorial() fatorial
+..... outras
+
+logo podemos usar:
+import math
+from math import sqrt
+from math import sqrt,floor
+
+ex: no programa
+#raiz quadrada de um número
+import math
+num = float(input('digite um número: '))
+raiz = math.sqrt(num)
+print('A raiz quadrada desse número é: {:.2f}'.format(raiz))
+
+ex2
+#raiz quadrada de um número
+from math import sqrt
+num = float(input('digite um número: '))
+raiz = sqrt(num)
+print('A raiz quadrada desse número é: {:.2f}'.format(raiz))
+
+veja qual a versão do seu python e no site oficial confira a documentação das blibiotecas
+
+
+
+
+
+
+
+
+
+
+

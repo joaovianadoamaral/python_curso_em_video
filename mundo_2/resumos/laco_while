@@ -1,0 +1,28 @@
+não existe só a estrutura for para repetições
+- muito versatil mas não serve para tudo
+- o for precisa de um range(), de um limite
+- não usado quando não se sabe o limite
+- mais pratico
+- estrutura de repetição com variavel de controle
+
+
+novo loop: while
+enquanto não alcançar o limite não sai do loop
+estrutura de repetição com teste lógico
+
+ex: do video.
+n passos e pega a maçã
+
+enquanto não maçã
+    passo
+pega
+
+while not maçã:
+    passo
+pega
+
+- vantagem do while ( quando não se possui padrão)
+- use condições que te ajudem a chegar no destino final
+- faça verificações com if e for
+
+- não esqueça dos :

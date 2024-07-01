@@ -1,0 +1,47 @@
+desafio, ler dois números e mostrar a soma:
+
+para string é recomendado que use aspas simples.
+
+n1=input('digite um numero')
+n2=input('digite outro numero')
+s=n1+n2;
+
+print('a soma vale ', s );
+
+o mais não está servindo como adição então a resolução anterior
+está errada.
+ele serve como concatenação.
+
+no input mesmo que seja um numero o que digitamos não é considerado um numero
+
+vamos então converter para um número
+
+int
+float
+bool
+str
+
+int(input())
+float(input())
+etc...
+
+dois tipos de print.
+
+print('a soma vale ', s)
+print('a soma vale {}'.format(s)
+
+dentro do .format() subistitui o que está dentro
+das chaves {}, isso é no python 3, versões antigas
+usam %
+
+na variavel bool, se tiver um valor la dentro = true, se não
+false.
+
+type(n), mostra o tipo primitivo de n
+
+podemos testar se um número é numérico com print(n.isnumeric())
+
+---------desafios--------
+faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo
+e todas as informações possiveis sobre ele
+dadad

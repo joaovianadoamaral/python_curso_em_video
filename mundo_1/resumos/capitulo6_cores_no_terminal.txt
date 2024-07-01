@@ -1,0 +1,46 @@
+cores no terminal
+aula extra - fica legal
+ANSI escape sequence
+
+o que funciona melhor em python é o \033[m
+
+entre o colchete e o m valos colocar 3 parametros: style, text e back
+são estimulos
+ex: \033[0;33;44m
+padrão do terminal \033[m
+
+pode-se omitir o primeiro parametro e usar só os dois próximos, none por padrão
+
+para style 
+0 none
+1 bold
+4 underline
+7 negative , inverte o fundo com a letra
+
+para text
+30 branco
+31 vermelho
+32 verde
+33 amarelo
+34 azul
+35 roxo
+36 ciano
+37 cinza
+
+back
+40 branco
+41 vermelho
+42 verde
+43 amarelo
+44 azul
+45 roxo
+46 ciano
+47 cinza
+
+para mudar somente uma parte do código então fazemos print('\033[33mOlá mundo\033[m')
+pode se usar tambem o esquema de chaves
+print('ola {}{}{}'.format(cor1,nome,cor2)
+sendo os codigos entre aspas
+
+use um dicionário também
+

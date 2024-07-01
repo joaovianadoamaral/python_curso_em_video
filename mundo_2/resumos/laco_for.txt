@@ -1,0 +1,18 @@
+estruturas de repetição - for() parte 1
++ simples
+algoritmo é o passo a passo para resolver o problema
+exemplo dos n passos para pegar uma maçã
+
+o for possui um limite (um range)
+- laço com variavel de controle
+
+for variavel in range(a,b):
+	comandos
+
+a e b são números, irá acontecer b-a vezes.
+logo range(0,3) irá acontecer 3 vezes
+
+podemos aninhar qualquer estrutura aprendida.
+
+a variavel recebe o valor inicial de 'a' e irá até 'b-1'
+

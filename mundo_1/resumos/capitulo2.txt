@@ -1,0 +1,68 @@
+        Primeiros comandos em python
+
+Os dados de mensagem tem delimitadores.
+As aspas são os delimitadores de mensagem tanto aspas simples quanto aspas duplas
+existe pela preferência na comunidade de aspas simples
+
+ex:  'mensagem'.
+
+Todos os comandos em python são funções:
+
+ex de função: print()
+éla indica para mostrar uma mensagem na tela 
+print('mensagem')
+
+Podemos mostrar números na tela e números não tem aspas
+
+exemplo de calculo usando print(7+4)
+
+Caso usarmos print('7'+'4'), o resultado é 74,
+pois concatenamos duas mensagens.
+Podemos usar uma vírgula também.
+
+para concatenar use: + ou ,
+
+o mais só serve para duas mensagens, caso ao contrário usaremos ','
+
+------------------------
+use variaveis ssempre em letras minusculas
+
+o simbolo '=' significa recebe
+
+nome='guanabara'
+idade=25
+peso= 75.8
+
+print(nome,idade,peso)
+------------------------------
+a função input() pede para os usuários digitar algo
+então para armazenar isso nas variaveis usaremos
+variavel=input('mensagem');
+
+para quebra de linha usaremos o \n.
+
+Em python quando lemos um nome ele não para de ler
+quando damo espaços então conseguimos ler o nome todo.
+
+----------------------
+via de regra os arquivos python tem extensão '.py'
+
+para rodar o programa use f5, ou run
+-------------------
+
+Para programar as coisas usaremos scripts.
+
+----------
+obs: quando usamos virgula há um espaço automatico,
+para + há a obrigatoriedade de um espaço antes e depois
+
+-------------------
+
+instalando o pycharm e o qpython3
+
+o pycharm será a ide que iremos ultilizar
+
+para os programas em python é ideal que
+quando o programa acabar de enter e deixe a
+ultima linha vazia
+
